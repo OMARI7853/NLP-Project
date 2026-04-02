@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 # Load the dataset
-df = pd.read_csv("C:/Users/user/OneDrive/Desktop/DATA SCIENCE PROJECTS/Model Deployment/Iris.csv")
+df = pd.read_csv("Iris.csv")
 
 # # Training the Model
 df.drop('Id', axis=1, inplace=True)
